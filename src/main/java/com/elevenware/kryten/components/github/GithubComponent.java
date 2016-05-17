@@ -5,9 +5,6 @@ import org.apache.camel.impl.UriEndpointComponent;
 
 import java.util.Map;
 
-/**
- * Created by george on 03/12/2015.
- */
 public class GithubComponent extends UriEndpointComponent {
     public GithubComponent() {
         super(GithubEndpoint.class);
